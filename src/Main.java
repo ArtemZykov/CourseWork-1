@@ -6,6 +6,6 @@ public class Main {
         System.out.println("Сотрудник с минимальной зарплатой: " + store.calculateMinEmp());
         System.out.println("Сотрудник с максимальной зарплатой: " + store.calculateMaxEmp());
         System.out.println("Средняя зарплата офиса: " + store.calculateMediumSal());
-        store.printFullName();
+
     }
 }
