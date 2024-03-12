@@ -7,6 +7,8 @@ public class Main {
         System.out.println("Сотрудник с максимальной зарплатой: " + employee.calculateMaxEmp());
         System.out.println("Средняя зарплата офиса: " + employee.calculateMediumSal());
         employee.printFullName();
+        System.out.println(employee.hashCode());
+        System.out.println(employee.equals(5));
 
     }
 }
