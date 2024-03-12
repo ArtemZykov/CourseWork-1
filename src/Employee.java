@@ -58,20 +58,19 @@ public class Employee {
     }
 
     public String toString() {
-        return "Employee{" +
-                "FullName'" + FullName + '\'' +
+        return " " +
+                "Сотрудник: " + FullName + " " +
                 //", surname='" + surname + '\'' +
                 //", midname='" + midname + '\'' +
-                ", otdel=" + otdel +
-                ", salary=" + salary +
-                ", id=" + id +
-                '}';
+                ", департамент: " + otdel +
+                ", зарплата: " + salary +
+                ", таб.номер: " + id ;
     }
     public String printFullName() {
-        return "Employee{" +  "FullName'" + FullName + '\'' +
+        return " " +  "Сотрудник: " + FullName ;
                // ", surname='" + surname + '\'' +
                 //", midname='" + midname + '\'' +
-                '}';
+
     }
 
 }
